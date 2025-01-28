@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV - Nombre del Alumno</title>
+  <link rel="stylesheet" href="estilos.css"> <!-- Enlace al archivo de CSS -->
+</head>
+<body>
+  <!-- Encabezado -->
+  <header>
+    <h1>CV Manuel</h1>
+    <p>Desarrollador en formación</p>
+    <nav>
+      <ul>
+        <li><a href="#informacion">Información Personal</a></li>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#formacion">Formación Académica</a></li>
+        <li><a href="#experiencia">Experiencia Profesional</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Información personal -->
+  <section id="informacion">
+    <h2>Información Personal</h2>
+    <img src="descarga.jpg" alt="Foto de perfil">
+    <p><strong>Nombre completo:</strong> Manuel Pascual</p>
+    <p><strong>Dirección:</strong> Calle Ficticia 123</p>
+    <p><strong>Teléfono:</strong> +34 600 123 456</p>
+    <p><strong>Correo electrónico:</strong> manuelpascualarenas69@gmail.com</p>
+    <p><strong>Redes sociales:</strong> <a href="https://linkedin.com/in/juanperez">LinkedIn</a> | <a href="https://github.com/juanperez">GitHub</a></p>
+  </section>
+
+  <!-- Sobre mí -->
+  <section id="sobre-mi">
+    <h2>Sobre mí</h2>
+    <p>soy un estudiante de grado basico de informatica de oficina y me gusta mucho el campo y los animales
+    </p>
+  </section>
+
+  <!-- Formación académica -->
+  <section id="formacion">
+    <h2>Formación Académica</h2>
+    <ul>
+      <li>Grado basico de informatica de oficina (2023-2025)
+     
+    </ul>
+  </section>
+
+  <!-- Experiencia profesional -->
+  <section id="experiencia">
+    <h2>Experiencia Profesional</h2>
+    <table>
+      <tr>
+        <th>Puesto</th>
+        <th>Empresa</th>
+        <th>Años</th>
+        <th>Tareas</th>
+      </tr>
+      <tr>
+        <td>Desarrollador Junior</td>
+        <td>Empresa Z</td>
+        <td>2023 - Presente</td>
+        <td>Desarrollo de aplicaciones web, mantenimiento de sitios, colaboración en equipos ágiles.</td>
+      </tr>
+      <tr>
+        <td>Prácticas en Desarrollo Web</td>
+        <td>Compañía A</td>
+        <td>2022</td>
+        <td>Creación de páginas web, diseño responsivo, pruebas y optimización de rendimiento.</td>
+      </tr>
+    </table>
+  </section>
+
+  <!-- Habilidades -->
+  <section id="habilidades">
+    <h2>Habilidades</h2>
+    <ul>
+      <li>HTML, CSS, JavaScript, Excel</li>
+      <li>Trabajo en equipo</li>
+      <li>Resolución de problemas</li>
+    </ul>
+  </section>
+
+  <!-- Formulario de contacto -->
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <form action="enviar-formulario.php" method="POST">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required><br>
+      <label for="correo">Correo electrónico:</label>
+      <input type="email" id="correo" name="correo" required><br>
+      <label for="mensaje">Mensaje:</label><br>
+      <textarea id="mensaje" name="mensaje" required></textarea><br>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Nombre del Alumno. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
